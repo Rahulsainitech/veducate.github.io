@@ -81,7 +81,7 @@
     justify-content: center;
 }
 .background{
-    background: rgba(0,0,0, 0.3)  url('../img/bg2.jpg');
+    background: rgba(0,0,0, 0.3)  url('img/bg2.jpg');
     background-size: cover;
     background-blend-mode:darken;
 }
@@ -168,7 +168,7 @@ padding: 7px 0 7px 0;
     justify-content: center;
 }
 .background2{
-    background: rgba(0,0,0, 0.3)  url('../img/bg3.jpg');
+    background: rgba(0,0,0, 0.3)  url('img/bg3.jpg');
     background-size: cover;
     background-blend-mode: normal;
 }
