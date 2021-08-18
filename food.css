@@ -2,12 +2,17 @@
 *{
     margin: 0px;
     padding: 0px;
+font-family: 'Inconsolata', monospace;
+font-family: 'PT Sans', sans-serif;
 }
 
 
 
 .navbar{
     display: flex;
+    position: sticky;
+    top: 0px;
+    cursor: pointer;
     
 }
 .nav-list{
@@ -28,8 +33,6 @@
 .nav-list li a{
     text-decoration: none;
     color: white;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    
     }
 .logo{
     display: flex;
@@ -43,7 +46,7 @@
 }
 .right-nav{
     /* display: flex; */
-    width: 25%;
+    width: 30%;
     text-align: right;
     /* flex-direction: row-reverse; */
     /* background-color: blanchedalmond; */
@@ -53,7 +56,8 @@
     font-size: 17px;
     border: 3px solid green;
     border-radius: 12px;
-    margin-top: 20px;
+    margin-top: 32px;
+    width: 50%;
 }
 .btn-search{
     padding: 5px 0 5px 0;
@@ -88,7 +92,7 @@
 .firstsection{
     width: 60%;
     margin: auto;
-    height: 40vh;
+    height: auto;
     padding: 28px;
 
 
@@ -98,7 +102,8 @@
     text-align: center;
     padding: 13px;
     font-size: 38px;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-family: 'Inconsolata', monospace;
+    font-family: 'PT Sans', sans-serif;
 
 }
 .text-small{
@@ -110,13 +115,14 @@
 }
 .big-box{
     display: flex;
+    flex-wrap: wrap;
 
 }
 .box1{
-    width: 31%;
+    width: 26%;
     border: 2px solid black;
     align-items: center;
-    margin: 40px 7px 25px 7px;
+    margin: 15px auto;
     border-radius: 70px;
     justify-content: center;
     padding: 35px;
@@ -176,7 +182,7 @@ padding: 7px 0 7px 0;
     margin: 101px 55px 67px 54px;
 }
 
-@media only screen and (max-width:1626px){
+/* @media only screen and (max-width:1626px){
     .firstsection{
         height: 45vh;
     }
@@ -191,7 +197,7 @@ padding: 7px 0 7px 0;
         /* width: 120%; */
         
     }
-    .big-box{
+    /* .big-box{ */
         display: inline;
     }
-}
+/* } */ */
