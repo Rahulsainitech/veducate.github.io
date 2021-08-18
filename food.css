@@ -194,10 +194,10 @@ padding: 7px 0 7px 0;
 }
 @media only screen and (max-width:1194px){
     .logo img {
-        /* width: 120%; */
+        width: 120%;
         
     }
-    /* .big-box{ */
+    .big-box{
         display: inline;
     }
-/* } */ */
+} */
